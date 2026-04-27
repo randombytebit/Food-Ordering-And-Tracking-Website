@@ -116,6 +116,7 @@ food-ordering-and-tracking-app/
 
    ```bash
    git clone https://github.com/randombytebit/Food-Ordering-And-Tracking-Website.git
+   cd Food-Ordering-And-Tracking-Website
    ```
 
 2. **Install frontend dependencies**
@@ -161,14 +162,14 @@ Start both servers in separate terminal windows.
 **Backend**
 
 ```bash
-cd backend
+cd Food-Ordering-And-Tracking-Website/backend
 npm run dev
 ```
 
 **Frontend**
 
 ```bash
-cd frontend
+cd Food-Ordering-And-Tracking-Website/frontend
 npm run dev
 ```
 
