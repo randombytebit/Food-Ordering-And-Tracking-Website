@@ -1,8 +1,8 @@
 <div align="center">
 
-# Food Ordering and Tracking App
+# Food Ordering and Tracking Website
 
-**A full-stack web application for browsing restaurants, placing orders, and tracking deliveries in real-time.**
+**A full-stack website for browsing restaurants, placing orders, and tracking deliveries in real-time.**
 
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -115,14 +115,13 @@ food-ordering-and-tracking-app/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Shiro12222/Shiro12222-Food-Ordering-And-Tracking-App.git
-   cd Shiro12222-Food-Ordering-And-Tracking-App
+   git clone https://github.com/randombytebit/Food-Ordering-And-Tracking-Website.git
    ```
 
 2. **Install frontend dependencies**
 
    ```bash
-   cd food-ordering-and-tracking-app-frontend
+   cd frontend
    npm install
    ```
 
@@ -139,7 +138,8 @@ food-ordering-and-tracking-app/
 4. **Install backend dependencies**
 
    ```bash
-   cd ../food-ordering-and-tracking-app-backend
+   cd ..
+   cd backend
    npm install
    ```
 
@@ -161,14 +161,14 @@ Start both servers in separate terminal windows.
 **Backend**
 
 ```bash
-cd food-ordering-and-tracking-app-backend
+cd backend
 npm run dev
 ```
 
 **Frontend**
 
 ```bash
-cd food-ordering-and-tracking-app-frontend
+cd frontend
 npm run dev
 ```
 
@@ -181,7 +181,7 @@ The frontend will be available at [http://localhost:5173](http://localhost:5173)
 Unit tests are written using [Mocha](https://mochajs.org/) and located in the backend `test/` directory.
 
 ```bash
-cd food-ordering-and-tracking-app-backend
+cd backend
 npm test
 ```
 
